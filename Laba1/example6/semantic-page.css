@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(237, 155, 207);
+    height: 50px;
+     display: flex;
+    justify-content: center;
+}
+main{
+     display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 90vh;
+    max-width: 960px;
+    background-color: azure;
+}
+footer{
+    background-color: rgb(161, 106, 34);
+}
+article {
+    margin-bottom: 50px;
+    background-color: beige;
+}
+aside{
+    border-color: beige;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    padding: 15px;
+}
+
+li {
+    margin: 0 0 0 20px;
+}
+a:hover{
+    background-color: rgb(248, 223, 223);
+}

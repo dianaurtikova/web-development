@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid #0001ad;
+    padding: 5px;
+    text-align: center;
+}
+thead th {
+    background-color: #f5b7ee;
+    color: #151515;
+}
+.book:nth-child(odd){
+    background: #ceceed;
+}
+.book:nth-child(even){
+    background: #f5b7ee;
+}

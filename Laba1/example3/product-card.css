@@ -1,0 +1,14 @@
+.product-card {
+    width: 270px;
+    padding: 20px;
+    border: 2px solid;
+    border-color: rgb(69, 143, 203);
+    box-shadow: 0px 0px 5px 5px rgb(161, 175, 189);
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.water{
+    width: 250px;
+}
