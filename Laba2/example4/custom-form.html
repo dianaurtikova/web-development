@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Choose your interests</legend>
+        <div class="form-group">
+            <label class="lable_name">Радиокнопки (radio):</label>
+            <div class="radio-group">
+                <input type="radio" class="radio-input" id="option1" name="radio_option" value="option1" checked>
+                <label for="option1">Опция 1</label>
+                <input type="radio" class="radio-input" id="option2" name="radio_option" value="option2">
+                <label for="option2">Опция 2</label>
+                <input type="radio" class="radio-input" id="option3" name="radio_option" value="option3">
+                <label for="option3">Опция 3</label>
+            </div>
+            <small>Выбор только одного варианта из группы (общее `name`).</small>
+        </div>
+
+        <div class="form-group">
+            <label class="lable_name">Чекбоксы (checkbox):</label>
+            <div class="checkbox-group">
+                <input type="checkbox" class="checkbox-input" id="featureA" name="checkbox_option" value="featureA"
+                    checked>
+                <label class="checkbox-label">Функция A</label>
+                <input type="checkbox" class="checkbox-input" id="featureB" name="checkbox_option" value="featureB">
+                <label class="checkbox-label">Функция B</label>
+                <input type="checkbox" class="checkbox-input" id="featureC" name="checkbox_option" value="featureC">
+                <label class="checkbox-label">Функция C</label>
+            </div>
+            <small>Выбор одного или нескольких вариантов.</small>
+        </div>
+
+    </fieldset>
+
+</body>
+
+</html>

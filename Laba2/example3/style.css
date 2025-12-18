@@ -1,0 +1,55 @@
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 0.5s ease;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: -12px 19px 20px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+h3::before {
+    content: "📍";
+}
+
+.card:hover .overlay {
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.7);
+}
